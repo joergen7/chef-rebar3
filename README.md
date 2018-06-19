@@ -1,5 +1,7 @@
 # chef-rebar3
 
+[![Cookbook Version](https://img.shields.io/cookbook/v/git.svg)](https://supermarket.chef.io/cookbooks/chef-rebar3)
+
 Manages installation of Rebar3.
 
 ## Requirements
