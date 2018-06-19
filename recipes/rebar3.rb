@@ -21,9 +21,9 @@
 include_recipe 'erlang::default'
 
 
-rebar3_vsn = node['rebar3']['vsn']
+rebar3_version = node['rebar3']['version']
 rebar3_githuburl = "https://github.com/erlang/rebar3.git"
-rebar3_dir = "/tmp/rebar3-#{rebar3_vsn}"
+rebar3_dir = "/tmp/rebar3-#{rebar3_version}"
 
 
 # install git
@@ -34,7 +34,7 @@ git "git_clone_rebar3" do
   action :checkout
   repository rebar3_githuburl
   destination rebar3_dir
-  revision rebar3_vsn
+  revision rebar3_version
 end
 
 # bootstrap
