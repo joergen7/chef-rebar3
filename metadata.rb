@@ -20,4 +20,3 @@ issues_url 'https://github.com/joergen7/chef-rebar3/issues'
 source_url 'https://github.com/joergen7/chef-rebar3'
 
 depends 'erlang', '6.1.1'
-depends 'git',    '9.0.1'

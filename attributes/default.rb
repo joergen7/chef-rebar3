@@ -18,4 +18,8 @@
 # limitations under the License.
 #
 
+default['erlang']['install_method']     = 'source'
+default['erlang']['source']['version']  = '20.3'
+default['erlang']['source']['checksum'] = '4e19e6c403d5255531c0b870f19511c8b8e3b080618e4f9efcb44d905935b2a1'
+
 default['rebar3']['vsn']                = '3.5.3'
